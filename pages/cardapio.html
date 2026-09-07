@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cardápio | Habib's Mockup — Thabo Mokoenaa</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="mock-banner"><strong>MOCKUP ESTUDANTIL</strong> — cardápio ilustrativo · sem checkout · Thabo Mokoenaa</div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="../index.html" aria-label="Habib's Mockup — início"><img src="../assets/logo-mock.svg" alt="Habib's Mock" width="200" height="46" /></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Abrir menu">☰</button>
+        <nav class="nav" aria-label="Principal">
+          <a href="../index.html">Início</a>
+          <a href="cardapio.html" aria-current="page">Cardápio</a>
+          <a href="habibers.html">Habibers</a>
+          <a href="restaurantes.html">Restaurantes</a>
+          <button class="btn btn-ghost" type="button" data-mock="login">Entrar</button>
+          <button class="btn btn-primary" type="button" data-mock="delivery">Pedir delivery</button>
+        </nav>
+      </div>
+    </header>
+    <div class="page-hero"><div class="page-hero-inner"><h1>Cardápio</h1><p>Bib'sfihas, combos, doces e pratos árabes — preços de referência do scrape (mock).</p></div></div>
+    <section class="section">
+      <div class="section-head">
+        <div><h2>Escolha sua <em>categoria</em></h2><p>Filtros locais. “Adicionar” só exibe aviso — sem carrinho.</p></div>
+        <div class="filters" role="tablist" aria-label="Categorias">
+          <button class="chip is-active" type="button" data-filter="all">Tudo</button>
+          <button class="chip" type="button" data-filter="combos">Combos</button>
+          <button class="chip" type="button" data-filter="bibsfihas">Bib'sfihas</button>
+          <button class="chip" type="button" data-filter="doces">Doces</button>
+          <button class="chip" type="button" data-filter="arabes">Árabes</button>
+        </div>
+      </div>
+      <div class="grid" id="menu-products" aria-live="polite"></div>
+    </section>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div><h4>Habib's Mockup</h4><p>Projeto estudantil — Thabo Mokoenaa. Sem afiliação oficial.</p></div>
+        <div><h4>Navegação</h4><ul><li><a href="../index.html">Início</a></li><li><a href="habibers.html">Habibers</a></li><li><a href="restaurantes.html">Restaurantes</a></li></ul></div>
+        <div><h4>Aviso</h4><ul><li>Sem checkout / pagamento</li><li>Placeholders no lugar de fotos oficiais</li></ul></div>
+      </div>
+      <p class="footer-note">Uso educacional. Template para customização futura.</p>
+    </footer>
+    <script type="module" src="../js/app.js"></script>
+  </body>
+</html>
